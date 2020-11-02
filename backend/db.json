@@ -1,0 +1,112 @@
+{
+  "best-products": [
+    {
+      "id": 1,
+      "code": "TGMLY-1",
+      "name": "Sate Ayam",
+      "price": 13000,
+      "is_ready": true,
+      "image": "sate-ayam.jpg"
+    },
+    {
+      "id": 2,
+      "code": "TGMLY-2",
+      "name": "Bakso",
+      "price": 13000,
+      "is_ready": true,
+      "image": "bakso.jpg"
+    },
+    {
+      "id": 3,
+      "code": "TGMLY-3",
+      "name": "Mie Goreng",
+      "price": 13000,
+      "is_ready": true,
+      "image": "mie-goreng.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "code": "TGMLY-1",
+      "name": "Sate Ayam",
+      "price": 13000,
+      "is_ready": true,
+      "image": "sate-ayam.jpg"
+    },
+    {
+      "id": 2,
+      "code": "TGMLY-2",
+      "name": "Bakso",
+      "price": 13000,
+      "is_ready": true,
+      "image": "bakso.jpg"
+    },
+    {
+      "id": 3,
+      "code": "TGMLY-3",
+      "name": "Mie Goreng",
+      "price": 13000,
+      "is_ready": true,
+      "image": "mie-goreng.jpg"
+    },
+    {
+      "id": 4,
+      "code": "TGMLY-4",
+      "name": "Kentang Goreng",
+      "price": 13000,
+      "is_ready": true,
+      "image": "kentang-goreng.jpg"
+    },
+    {
+      "id": 5,
+      "code": "TGMLY-5",
+      "name": "Lontong Opor Ayam",
+      "price": 13000,
+      "is_ready": true,
+      "image": "lontong-opor-ayam.jpg"
+    },
+    {
+      "id": 6,
+      "code": "TGMLY-6",
+      "name": "Mie Ayam Bakso",
+      "price": 13000,
+      "is_ready": true,
+      "image": "mie-ayam-bakso.jpg"
+    },
+    {
+      "id": 7,
+      "code": "TGMLY-7",
+      "name": "Nasi Ayam Geprek",
+      "price": 13000,
+      "is_ready": true,
+      "image": "nasi-ayam-geprek.jpg"
+    },
+    {
+      "id": 8,
+      "code": "TGMLY-8",
+      "name": "Nasi Goreng Telor",
+      "price": 13000,
+      "is_ready": true,
+      "image": "nasi-goreng-telor.jpg"
+    },
+    {
+      "id": 9,
+      "code": "TGMLY-9",
+      "name": "Nasi Rames",
+      "price": 13000,
+      "is_ready": true,
+      "image": "nasi-rames.jpg"
+    },
+    {
+      "id": 10,
+      "code": "TGMLY-10",
+      "name": "Pangsit",
+      "price": 13000,
+      "is_ready": true,
+      "image": "pangsit.jpg"
+    }
+  ],
+  "cart": [],
+  "order": []
+}
