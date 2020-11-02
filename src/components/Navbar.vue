@@ -16,16 +16,18 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+          <li class="nav-item link-custom">
             <router-link class="nav-link" to="/">Home</router-link>
           </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/food">Food</router-link>
+          <li class="nav-item link-custom">
+            <router-link class="nav-link " to="/food">Food</router-link>
           </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/food">
+          <li class="nav-item link-custom">
+            <router-link class="nav-link" to="/cart">
               <b-icon icon="cart3" aria-hidden="true"></b-icon>
-              <span class="badge badge-warning">3</span>
+              <span class="badge badge-warning">{{
+                cart ? cart.length : orderAmount.length
+              }}</span>
             </router-link>
           </li>
         </ul>
@@ -35,8 +37,27 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   name: "Navbar",
+  data() {
+    return {
+      orderAmount: [],
+    };
+  },
+  props: ["cart"],
+  methods: {
+    amount(data) {
+      this.orderAmount = data;
+    },
+  },
+  mounted() {
+    axios
+      .get("http://localhost:3000/cart")
+      .then((response) => this.amount(response.data))
+      .catch((error) => console.log(error));
+  },
 };
 </script>
 

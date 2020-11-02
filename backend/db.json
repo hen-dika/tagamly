@@ -108,5 +108,26 @@
     }
   ],
   "cart": [],
-  "order": []
+  "order": [
+    {
+      "name": "hen",
+      "table": "3",
+      "carts": [
+        {
+          "amount": "3",
+          "additional": "Extra spicy",
+          "products": {
+            "id": 7,
+            "code": "TGMLY-7",
+            "name": "Nasi Ayam Geprek",
+            "price": 13000,
+            "is_ready": true,
+            "image": "nasi-ayam-geprek.jpg"
+          },
+          "id": 2
+        }
+      ],
+      "id": 1
+    }
+  ]
 }

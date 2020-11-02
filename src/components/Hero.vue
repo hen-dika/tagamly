@@ -13,7 +13,7 @@
                 <br />in here!
               </h2>
               <p>Choose and order menu now</p>
-              <router-link class="btn btn-lg btn-warning" to="/foods">
+              <router-link class="btn btn-lg btn-warning" to="/food">
                 Order <b-icon-arrow-right></b-icon-arrow-right>
               </router-link>
             </div>
